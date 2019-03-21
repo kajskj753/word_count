@@ -19,3 +19,5 @@ def count(requset):
                   {'count1':count1,
                    'text':text,
                    'word_dict':sort_list})
+def about(request):
+    return  render(request, "about.html")
