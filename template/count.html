@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计结果</title>
+</head>
+<body>
+<h1>统计结果:{{ count1}}</h1>
+<br>
+<h2>内容输出：<br><p>{{ text }}</p></h2>
+字数频率：
+{% for i,j in word_dict %}
+<br>{{ i }}--{{ j }}
+{% endfor %}
+</body>
+</html>
